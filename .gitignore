@@ -1,0 +1,48 @@
+# CMake and build outputs
+/build/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+
+# Ninja
+/.ninja_deps
+/.ninja_log
+/build.ninja
+
+# Compiled binaries and objects
+/benchmark
+*.o
+*.obj
+*.a
+*.dylib
+*.so
+*.dll
+*.exe
+
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# IDE and editor state / temporary files
+.idea/
+.fleet/
+.history/
+*.swp
+*.swo
+*~
+*.tmp
+*.orig
+*.rej
+*.code-workspace
+.vscode/*.log
+.vscode/*.tmp
